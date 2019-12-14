@@ -26,7 +26,7 @@ public class GroupNIOServer {
         serverSocketChannel.configureBlocking(false);
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
         while (true){
-            if(selector.select(1000) == 0) {
+            if(selector.select(10000) == 0) {// 这个10000 ms等待,在这期间一旦发送事件也会触发
 //                LOG.info("selector闲置轮询中．．．．");
                 continue;
             }
