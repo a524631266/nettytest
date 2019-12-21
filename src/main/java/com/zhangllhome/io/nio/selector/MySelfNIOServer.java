@@ -7,6 +7,13 @@ import java.nio.channels.*;
 import java.util.Iterator;
 import java.util.Set;
 
+/**
+ * 单reactor 单线程处理的案例
+ * 编码简单,比较容易维护,但是不支持高并发,
+ * 因为处理函数都是需要同步在main线程中处理的
+ * 会堵塞其他任务的执行
+ *
+ */
 public class MySelfNIOServer {
     public static void main(String[] args) throws IOException {
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();

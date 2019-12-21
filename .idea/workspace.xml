@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03d2f650-9049-45cf-a3e6-e2abbe3aa05c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/simple/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/PriorityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/SimpleModelPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/YieldDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/GoogleServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/MyHttpHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,10 +38,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="264">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/simple/NettyServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/GoogleServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="294">
+              <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1159#1669#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,8 +54,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/SimpleModelPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="135">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="69" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,29 +81,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOClientWarp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/YieldDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/zerocopy/TestZero.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,28 +106,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/zerocopy/TestZero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="451">
+              <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/nio/ByteBuffer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/Demo01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3555">
-              <caret line="262" column="16" selection-start-line="262" selection-start-column="16" selection-end-line="262" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/nio/Buffer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/groupchat/ClientNio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5220">
-              <caret line="377" column="24" selection-start-line="377" selection-start-column="24" selection-end-line="377" selection-end-column="24" />
+            <state relative-caret-position="300">
+              <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/groupchat/GroupNIOServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-509">
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/ScatteringAndGatheringDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/Demo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/groupchat/ClientNio.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -173,6 +199,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/PriorityDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/YieldDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/MyHttpHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/GoogleServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java" />
       </list>
     </option>
   </component>
@@ -208,6 +237,9 @@
       <dailyData date="15-12-2019">
         <observation name="false" value="66.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="false" value="75.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="12-12-2019">
@@ -225,6 +257,10 @@
         <observation name="UNDEFINED" value="19.0" />
         <observation name="false" value="47.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="7.0" />
+        <observation name="false" value="68.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
       <dailyData date="12-12-2019">
@@ -240,6 +276,9 @@
       </dailyData>
       <dailyData date="15-12-2019">
         <observation name="false" value="66.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="false" value="75.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
@@ -257,6 +296,10 @@
       <dailyData date="15-12-2019">
         <observation name="0" value="8.0" />
         <observation name="UNDEFINED" value="58.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="0" value="23.0" />
+        <observation name="UNDEFINED" value="52.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -280,6 +323,11 @@
         <observation name="false" value="13.0" />
         <observation name="true" value="38.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="false" value="16.0" />
+        <observation name="true" value="58.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="12-12-2019">
@@ -301,6 +349,11 @@
         <observation name="UNDEFINED" value="15.0" />
         <observation name="false" value="35.0" />
         <observation name="true" value="16.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="false" value="59.0" />
+        <observation name="true" value="15.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -324,6 +377,11 @@
         <observation name="false" value="38.0" />
         <observation name="true" value="13.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="false" value="59.0" />
+        <observation name="true" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="12-12-2019">
@@ -344,6 +402,11 @@
       <dailyData date="15-12-2019">
         <observation name="UNDEFINED" value="15.0" />
         <observation name="false" value="36.0" />
+        <observation name="true" value="15.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="false" value="59.0" />
         <observation name="true" value="15.0" />
       </dailyData>
     </factor>
@@ -368,6 +431,11 @@
         <observation name="false" value="29.0" />
         <observation name="true" value="22.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="false" value="71.0" />
+        <observation name="true" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="12-12-2019">
@@ -386,6 +454,10 @@
         <observation name="false" value="52.0" />
         <observation name="true" value="14.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="false" value="74.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="12-12-2019">
@@ -402,6 +474,10 @@
       <dailyData date="15-12-2019">
         <observation name="NORMAL" value="51.0" />
         <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="NORMAL" value="74.0" />
+        <observation name="UNDEFINED" value="1.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -429,6 +505,12 @@
         <observation name="maybeExpected" value="1.0" />
         <observation name="normal" value="43.0" />
         <observation name="ofDefaultType" value="1.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="expected" value="14.0" />
+        <observation name="maybeExpected" value="7.0" />
+        <observation name="normal" value="53.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
@@ -464,6 +546,14 @@
         <observation name="normal" value="28.0" />
         <observation name="variable" value="10.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="classNameOrGlobalStatic" value="17.0" />
+        <observation name="normal" value="40.0" />
+        <observation name="probableKeyword" value="2.0" />
+        <observation name="suitableClass" value="1.0" />
+        <observation name="variable" value="14.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
       <dailyData date="12-12-2019">
@@ -481,6 +571,10 @@
       <dailyData date="15-12-2019">
         <observation name="UNDEFINED" value="15.0" />
         <observation name="unknown" value="51.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="unknown" value="74.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -506,6 +600,11 @@
         <observation name="null" value="39.0" />
         <observation name="true" value="2.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="false" value="18.0" />
+        <observation name="null" value="56.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
       <dailyData date="12-12-2019">
@@ -525,6 +624,11 @@
         <observation name="applicableByKind" value="1.0" />
         <observation name="unknown" value="50.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="applicableByKind" value="1.0" />
+        <observation name="unknown" value="73.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="12-12-2019">
@@ -541,6 +645,10 @@
       <dailyData date="15-12-2019">
         <observation name="UNDEFINED" value="28.0" />
         <observation name="normal" value="38.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="normal" value="71.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -564,6 +672,11 @@
         <observation name="explicitSelect" value="56.0" />
         <observation name="typedSelect" value="11.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="cancelled" value="153.0" />
+        <observation name="explicitSelect" value="62.0" />
+        <observation name="typedSelect" value="15.0" />
+      </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="12-12-2019">
@@ -578,6 +691,9 @@
       <dailyData date="15-12-2019">
         <observation name="BASIC" value="79.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="BASIC" value="107.0" />
+      </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="12-12-2019">
@@ -591,6 +707,9 @@
       </dailyData>
       <dailyData date="15-12-2019">
         <observation name="count" value="206.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="count" value="230.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -622,6 +741,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.092778" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="average" value="0.201342" />
+        <observation name="count" value="149.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.117355" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
       <dailyData date="12-12-2019">
@@ -648,6 +774,13 @@
       <dailyData date="15-12-2019">
         <observation name="average" value="0.0" />
         <observation name="count" value="131.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="149.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -681,6 +814,9 @@
         <observation name="min" value="-9.0" />
         <observation name="variance" value="3.459946" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="75.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="12-12-2019">
@@ -706,6 +842,14 @@
         <observation name="UNDEFINED" value="15.0" />
         <observation name="average" value="0.0" />
         <observation name="count" value="101.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="147.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -740,6 +884,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.29119" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="average" value="1.369128" />
+        <observation name="count" value="149.0" />
+        <observation name="max" value="41.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="24.399977" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
       <dailyData date="12-12-2019">
@@ -770,6 +921,13 @@
         <observation name="min" value="-1202.0" />
         <observation name="variance" value="34726.336518" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="average" value="-1027.281879" />
+        <observation name="count" value="149.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1202.0" />
+        <observation name="variance" value="76140.469106" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="12-12-2019">
@@ -799,6 +957,13 @@
         <observation name="max" value="0.0" />
         <observation name="min" value="-1.0" />
         <observation name="variance" value="0.020656" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="149.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
@@ -834,6 +999,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="12991.647836" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="66.666667" />
+        <observation name="count" value="147.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="10999.520853" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="12-12-2019">
@@ -867,6 +1040,14 @@
         <observation name="max" value="8.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="6.792439" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="0.054422" />
+        <observation name="count" value="147.0" />
+        <observation name="max" value="6.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.262774" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
@@ -902,6 +1083,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.692179" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="0.408163" />
+        <observation name="count" value="147.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.510966" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="12-12-2019">
@@ -936,6 +1125,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.520421" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="0.380952" />
+        <observation name="count" value="147.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.494604" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
       <dailyData date="12-12-2019">
@@ -962,6 +1159,13 @@
       <dailyData date="15-12-2019">
         <observation name="average" value="0.0" />
         <observation name="count" value="131.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="149.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -996,6 +1200,13 @@
         <observation name="min" value="2.0" />
         <observation name="variance" value="16.389554" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="average" value="8.778523" />
+        <observation name="count" value="149.0" />
+        <observation name="max" value="27.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="22.511036" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="12-12-2019">
@@ -1021,6 +1232,14 @@
         <observation name="UNDEFINED" value="15.0" />
         <observation name="average" value="0.0" />
         <observation name="count" value="101.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="147.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -1054,6 +1273,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="147.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="12-12-2019">
@@ -1079,6 +1306,14 @@
         <observation name="UNDEFINED" value="15.0" />
         <observation name="average" value="0.0" />
         <observation name="count" value="101.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="147.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -1113,6 +1348,13 @@
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="149.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:statics">
       <dailyData date="12-12-2019">
@@ -1141,6 +1383,14 @@
         <observation name="max" value="0.0" />
         <observation name="min" value="-4.0" />
         <observation name="variance" value="0.710598" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="UNDEFINED" value="63.0" />
+        <observation name="average" value="-3.521739" />
+        <observation name="count" value="23.0" />
+        <observation name="max" value="-3.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="0.503637" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
@@ -1171,6 +1421,13 @@
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="20187984.985018" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="average" value="872.389262" />
+        <observation name="count" value="149.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="6242167.689398" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -1215,6 +1472,16 @@
         <observation name="2" value="2.0" />
         <observation name="3" value="2.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="0" value="45.0" />
+        <observation name="1" value="5.0" />
+        <observation name="10" value="1.0" />
+        <observation name="2" value="6.0" />
+        <observation name="25" value="1.0" />
+        <observation name="3" value="2.0" />
+        <observation name="41" value="1.0" />
+        <observation name="6" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
       <dailyData date="12-12-2019">
@@ -1232,6 +1499,10 @@
       <dailyData date="15-12-2019">
         <observation name="total" value="42.0" />
         <observation name="withMnemonics" value="1.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="total" value="49.0" />
+        <observation name="withMnemonics" value="5.0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
@@ -1276,6 +1547,18 @@
         <observation name="4" value="12.0" />
         <observation name="5" value="3.0" />
       </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="0" value="9.0" />
+        <observation name="1" value="4.0" />
+        <observation name="10" value="1.0" />
+        <observation name="2" value="21.0" />
+        <observation name="3" value="13.0" />
+        <observation name="4" value="5.0" />
+        <observation name="5" value="2.0" />
+        <observation name="7" value="2.0" />
+        <observation name="8" value="3.0" />
+        <observation name="9" value="2.0" />
+      </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
       <dailyData date="12-12-2019">
@@ -1293,6 +1576,10 @@
       <dailyData date="15-12-2019">
         <observation name="average" value="380.271186" />
         <observation name="count" value="59.0" />
+      </dailyData>
+      <dailyData date="21-12-2019">
+        <observation name="average" value="494.3125" />
+        <observation name="count" value="208.0" />
       </dailyData>
     </factor>
   </component>
@@ -1332,7 +1619,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zerocopy" type="462c0819:PsiDirectoryNode" />
+              <item name="googleproto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -1340,7 +1627,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="selector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="groupchat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zerocopy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1475,18 +1778,19 @@
       <workItem from="1576157635777" duration="3110000" />
       <workItem from="1576245901536" duration="40471000" />
       <workItem from="1576377953787" duration="2459000" />
-      <workItem from="1576758770187" duration="627000" />
+      <workItem from="1576758770187" duration="4680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46667000" />
+    <option name="totallyTimeSpent" value="50720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7329094" visible="true" weight="0.30424145" />
-      <window_info id="Structure" order="1" sideWeight="0.26709062" side_tool="true" visible="true" weight="0.30424145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73137254" visible="true" weight="0.30424145" />
+      <window_info id="Structure" order="1" sideWeight="0.26862746" side_tool="true" visible="true" weight="0.30424145" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -1499,7 +1803,7 @@
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49510604" weight="0.20508744" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49510604" visible="true" weight="0.1891892" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49918434" weight="0.32750398" />
@@ -1593,31 +1897,31 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java</url>
-          <line>55</line>
+          <line>62</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java</url>
-          <line>54</line>
+          <line>61</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java</url>
-          <line>36</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java</url>
-          <line>31</line>
+          <line>38</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java</url>
-          <line>43</line>
+          <line>50</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
@@ -1718,271 +2022,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/nio/HeapIntBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="138" column="26" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="31" />
-          <folding>
-            <element signature="e#2400#2401#0" expanded="true" />
-            <element signature="e#2445#2446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/nio/IntBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="261" column="15" selection-start-line="261" selection-start-column="7" selection-end-line="261" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.nio.channels.SocketChannel">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.nio.channels.SocketChannel</OriginalElement>
-          <nodes>
-            <node x="418.3687500000001" y="390.0">java.nio.channels.ReadableByteChannel</node>
-            <node x="350.75000000000006" y="466.0">java.nio.channels.ScatteringByteChannel</node>
-            <node x="217.5" y="0.0">java.lang.AutoCloseable</node>
-            <node x="109.75" y="466.0">java.nio.channels.spi.AbstractSelectableChannel</node>
-            <node x="244.75" y="238.0">java.nio.channels.InterruptibleChannel</node>
-            <node x="361.31770833333337" y="542.0">java.nio.channels.SocketChannel</node>
-            <node x="137.75" y="390.0">java.nio.channels.SelectableChannel</node>
-            <node x="231.5" y="76.0">java.io.Closeable</node>
-            <node x="563.75" y="466.0">java.nio.channels.ByteChannel</node>
-            <node x="0.0" y="238.0">java.nio.channels.NetworkChannel</node>
-            <node x="627.1187500000001" y="390.0">java.nio.channels.WritableByteChannel</node>
-            <node x="165.0" y="314.0">java.nio.channels.spi.AbstractInterruptibleChannel</node>
-            <node x="706.75" y="466.0">java.nio.channels.GatheringByteChannel</node>
-            <node x="238.5" y="152.0">java.nio.channels.Channel</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.nio.channels.SocketChannel" target="java.nio.channels.ScatteringByteChannel">
-              <point x="0.0" y="-13.0" />
-              <point x="429.81770833333337" y="522.0" />
-              <point x="447.25000000000006" y="522.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.ByteChannel" target="java.nio.channels.WritableByteChannel">
-              <point x="30.75" y="-13.0" />
-              <point x="656.0" y="441.0" />
-              <point x="671.8687500000001" y="441.0" />
-              <point x="-44.75" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.NetworkChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-13.0" />
-              <point x="72.0" y="198.0" />
-              <point x="246.41666666666669" y="198.0" />
-              <point x="-39.583333333333314" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.WritableByteChannel" target="java.nio.channels.Channel">
-              <point x="-5.6843418860808015E-14" y="-13.0" />
-              <point x="716.61875" y="198.0" />
-              <point x="325.58333333333337" y="198.0" />
-              <point x="39.58333333333337" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.ByteChannel" target="java.nio.channels.ReadableByteChannel">
-              <point x="-30.75" y="-13.0" />
-              <point x="594.5" y="441.0" />
-              <point x="552.6187500000001" y="441.0" />
-              <point x="44.75" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.ReadableByteChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-13.0" />
-              <point x="507.8687500000001" y="208.0" />
-              <point x="309.75" y="208.0" />
-              <point x="23.75" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.SocketChannel" target="java.nio.channels.NetworkChannel">
-              <point x="-54.80000000000001" y="-13.0" />
-              <point x="375.01770833333336" y="522.0" />
-              <point x="72.0" y="522.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.spi.AbstractInterruptibleChannel" target="java.nio.channels.Channel">
-              <point x="-60.5" y="-13.0" />
-              <point x="225.5" y="289.0" />
-              <point x="234.25" y="289.0" />
-              <point x="234.25" y="218.0" />
-              <point x="278.08333333333337" y="218.0" />
-              <point x="-7.916666666666629" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.SocketChannel" target="java.nio.channels.GatheringByteChannel">
-              <point x="54.80000000000001" y="-13.0" />
-              <point x="484.6177083333334" y="522.0" />
-              <point x="799.75" y="522.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.InterruptibleChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-13.0" />
-              <point x="337.75" y="218.0" />
-              <point x="293.91666666666663" y="218.0" />
-              <point x="7.916666666666629" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.GatheringByteChannel" target="java.nio.channels.WritableByteChannel">
-              <point x="0.0" y="-13.0" />
-              <point x="799.75" y="441.0" />
-              <point x="761.3687500000001" y="441.0" />
-              <point x="44.75" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.ScatteringByteChannel" target="java.nio.channels.ReadableByteChannel">
-              <point x="0.0" y="-13.0" />
-              <point x="447.25000000000006" y="441.0" />
-              <point x="463.1187500000001" y="441.0" />
-              <point x="-44.75" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.SocketChannel" target="java.nio.channels.ByteChannel">
-              <point x="27.399999999999977" y="-13.0" />
-              <point x="457.21770833333335" y="512.0" />
-              <point x="625.25" y="512.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.SelectableChannel" target="java.nio.channels.spi.AbstractInterruptibleChannel">
-              <point x="41.25" y="-13.0" />
-              <point x="261.5" y="365.0" />
-              <point x="286.0" y="365.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.spi.AbstractInterruptibleChannel" target="java.nio.channels.InterruptibleChannel">
-              <point x="60.5" y="-13.0" />
-              <point x="346.5" y="289.0" />
-              <point x="337.75" y="289.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.spi.AbstractSelectableChannel" target="java.nio.channels.SelectableChannel">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.Channel" target="java.io.Closeable">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.SelectableChannel" target="java.nio.channels.Channel">
-              <point x="-41.25" y="-13.0" />
-              <point x="179.0" y="365.0" />
-              <point x="154.5" y="365.0" />
-              <point x="154.5" y="208.0" />
-              <point x="262.25" y="208.0" />
-              <point x="-23.75" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.SocketChannel" target="java.nio.channels.spi.AbstractSelectableChannel">
-              <point x="-27.400000000000034" y="-13.0" />
-              <point x="402.41770833333334" y="512.0" />
-              <point x="220.25" y="512.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.6941309255079007" x="336.0" y="238.0" />
-          <SelectedNodes>
-            <node>java.nio.channels.SocketChannel</node>
-            <node>java.nio.channels.Channel</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.nio.channels.ServerSocketChannel">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.nio.channels.ServerSocketChannel</OriginalElement>
-          <nodes>
-            <node x="0.0" y="228.0">java.nio.channels.InterruptibleChannel</node>
-            <node x="130.1" y="380.0">java.nio.channels.SelectableChannel</node>
-            <node x="177.5" y="76.0">java.io.Closeable</node>
-            <node x="286.75" y="228.0">java.nio.channels.NetworkChannel</node>
-            <node x="23.75" y="304.0">java.nio.channels.spi.AbstractInterruptibleChannel</node>
-            <node x="163.5" y="0.0">java.lang.AutoCloseable</node>
-            <node x="102.1" y="456.0">java.nio.channels.spi.AbstractSelectableChannel</node>
-            <node x="184.975" y="532.0">java.nio.channels.ServerSocketChannel</node>
-            <node x="184.5" y="152.0">java.nio.channels.Channel</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.nio.channels.SelectableChannel" target="java.nio.channels.spi.AbstractInterruptibleChannel">
-              <point x="-41.25" y="-13.0" />
-              <point x="171.35" y="355.0" />
-              <point x="144.75" y="355.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.NetworkChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-13.0" />
-              <point x="358.75" y="198.0" />
-              <point x="267.625" y="198.0" />
-              <point x="35.625" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.ServerSocketChannel" target="java.nio.channels.spi.AbstractSelectableChannel">
-              <point x="-44.75" y="-13.0" />
-              <point x="229.725" y="507.0" />
-              <point x="212.6" y="507.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.spi.AbstractInterruptibleChannel" target="java.nio.channels.InterruptibleChannel">
-              <point x="-60.5" y="-13.0" />
-              <point x="84.25" y="279.0" />
-              <point x="93.0" y="279.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.spi.AbstractInterruptibleChannel" target="java.nio.channels.Channel">
-              <point x="60.5" y="-13.0" />
-              <point x="205.25" y="279.0" />
-              <point x="196.5" y="279.0" />
-              <point x="196.5" y="208.0" />
-              <point x="220.125" y="208.0" />
-              <point x="-11.875" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.ServerSocketChannel" target="java.nio.channels.NetworkChannel">
-              <point x="44.75" y="-13.0" />
-              <point x="319.225" y="507.0" />
-              <point x="358.75" y="507.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.spi.AbstractSelectableChannel" target="java.nio.channels.SelectableChannel">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.Channel" target="java.io.Closeable">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.InterruptibleChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-13.0" />
-              <point x="93.0" y="198.0" />
-              <point x="196.375" y="198.0" />
-              <point x="-35.625" y="13.0" />
-            </edge>
-            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.SelectableChannel" target="java.nio.channels.Channel">
-              <point x="41.25" y="-13.0" />
-              <point x="253.85" y="355.0" />
-              <point x="276.25" y="355.0" />
-              <point x="276.25" y="208.0" />
-              <point x="243.875" y="208.0" />
-              <point x="11.875" y="13.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.9411764705882353" x="144.0" y="270.0" />
-          <SelectedNodes>
-            <node>java.nio.channels.ServerSocketChannel</node>
-            <node>java.nio.channels.Channel</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/java.nio.channels.FileChannel">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -2166,13 +2205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/Demo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/modules/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/EPollArrayWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -2219,26 +2251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="231" column="6" lean-forward="true" selection-start-line="231" selection-start-column="6" selection-end-line="231" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="30" column="69" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2303,16 +2315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOClientWarp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/ReadOnlyDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -2327,16 +2329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/groupchat/GroupNIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aio/AioStart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -2348,16 +2340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/groupchat/ClientNio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2391,34 +2373,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/SimpleModelPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/PriorityDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/zerocopy/TestZero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2446,7 +2404,128 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/YieldDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/MyHttpHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final.jar!/io/netty/handler/codec/http/HttpServerCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="31" selection-start-line="24" selection-start-column="33" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/codec/http/HttpServerCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/GoogleServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1159#1669#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="69" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/Demo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/groupchat/ClientNio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/groupchat/GroupNIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-509">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/zerocopy/TestZero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/PriorityDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/SimpleModelPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOClientWarp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
