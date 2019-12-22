@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03d2f650-9049-45cf-a3e6-e2abbe3aa05c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/GoogleServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/MyHttpHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ServerBootStrap.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/plantuml4idea.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/ServerBootStrapLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/StaticDoOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/ABC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/concurren/CountDownTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/GoogleServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/GoogleServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/MyHttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/MyHttpHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhangllhome/io/nio/selector/MySelfNIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhangllhome/io/nio/selector/MySelfNIOServer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,54 +51,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="264">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/GoogleServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1159#1669#0" expanded="true" />
-                <element signature="e#1668#1669#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/SimpleModelPattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="11" column="69" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/PriorityDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOClientWarp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            <state relative-caret-position="288">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,55 +63,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/zerocopy/TestZero.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/Demo01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/groupchat/ClientNio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/groupchat/GroupNIOServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-509">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="149">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,6 +79,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="UML Sequence" />
         <option value="Class" />
       </list>
     </option>
@@ -165,6 +90,22 @@
       <find>wrap</find>
       <find>清理</find>
       <find>mark</find>
+      <find>newP</find>
+      <find>init</find>
+      <find>pipe</find>
+      <find>pipeline</find>
+      <find>selectedKeySet</find>
+      <find>selectedKeys</find>
+      <find>ch</find>
+      <find>OP_ACCEPT</find>
+      <find>newChild</find>
+      <find>Channel</find>
+      <find>DefaultThreadFactory</find>
+      <find>channel</find>
+      <find>doRegister</find>
+      <find>NioEventLoop</find>
+      <find>bind</find>
+      <find>TailContext</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,12 +137,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/simple/NettyServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/zerocopy/TestZero.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/SimpleModelPattern.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/PriorityDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/YieldDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/MyHttpHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/GoogleServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/MyHttpHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/ABC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/GoogleServer.java" />
+        <option value="$PROJECT_DIR$/lib/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/StaticDoOrNot.java" />
+        <option value="$PROJECT_DIR$/docs/ServerBootStrap.puml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/ServerBootStrapLearning.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/concurren/CountDownTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/PServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/config/TestConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyServerHandler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -238,7 +192,10 @@
         <observation name="false" value="66.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="false" value="75.0" />
+        <observation name="false" value="213.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="false" value="319.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
@@ -258,8 +215,12 @@
         <observation name="false" value="47.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="7.0" />
-        <observation name="false" value="68.0" />
+        <observation name="UNDEFINED" value="23.0" />
+        <observation name="false" value="190.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="96.0" />
+        <observation name="false" value="223.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
@@ -278,7 +239,12 @@
         <observation name="false" value="66.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="false" value="75.0" />
+        <observation name="false" value="209.0" />
+        <observation name="true" value="4.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="false" value="316.0" />
+        <observation name="true" value="3.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
@@ -298,8 +264,12 @@
         <observation name="UNDEFINED" value="58.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="0" value="23.0" />
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="0" value="68.0" />
+        <observation name="UNDEFINED" value="145.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="0" value="84.0" />
+        <observation name="UNDEFINED" value="235.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -324,9 +294,14 @@
         <observation name="true" value="38.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="16.0" />
-        <observation name="true" value="58.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="false" value="42.0" />
+        <observation name="true" value="158.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="false" value="58.0" />
+        <observation name="true" value="189.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
@@ -351,9 +326,14 @@
         <observation name="true" value="16.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="59.0" />
-        <observation name="true" value="15.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="false" value="137.0" />
+        <observation name="true" value="63.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="false" value="182.0" />
+        <observation name="true" value="65.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -378,9 +358,14 @@
         <observation name="true" value="13.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="59.0" />
-        <observation name="true" value="15.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="false" value="137.0" />
+        <observation name="true" value="63.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="false" value="192.0" />
+        <observation name="true" value="55.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
@@ -405,9 +390,14 @@
         <observation name="true" value="15.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="59.0" />
-        <observation name="true" value="15.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="false" value="137.0" />
+        <observation name="true" value="63.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="false" value="186.0" />
+        <observation name="true" value="61.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
@@ -432,9 +422,14 @@
         <observation name="true" value="22.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="71.0" />
-        <observation name="true" value="3.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="false" value="181.0" />
+        <observation name="true" value="19.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="false" value="221.0" />
+        <observation name="true" value="26.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
@@ -455,8 +450,12 @@
         <observation name="true" value="14.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="false" value="74.0" />
-        <observation name="true" value="1.0" />
+        <observation name="false" value="202.0" />
+        <observation name="true" value="11.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="false" value="298.0" />
+        <observation name="true" value="21.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
@@ -476,8 +475,12 @@
         <observation name="UNDEFINED" value="15.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="NORMAL" value="74.0" />
-        <observation name="UNDEFINED" value="1.0" />
+        <observation name="NORMAL" value="200.0" />
+        <observation name="UNDEFINED" value="13.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="NORMAL" value="246.0" />
+        <observation name="UNDEFINED" value="73.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -507,10 +510,16 @@
         <observation name="ofDefaultType" value="1.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="expected" value="14.0" />
-        <observation name="maybeExpected" value="7.0" />
-        <observation name="normal" value="53.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="expected" value="52.0" />
+        <observation name="maybeExpected" value="8.0" />
+        <observation name="normal" value="140.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="expected" value="59.0" />
+        <observation name="maybeExpected" value="17.0" />
+        <observation name="normal" value="170.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
@@ -547,12 +556,23 @@
         <observation name="variable" value="10.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="classNameOrGlobalStatic" value="17.0" />
-        <observation name="normal" value="40.0" />
-        <observation name="probableKeyword" value="2.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="classNameOrGlobalStatic" value="47.0" />
+        <observation name="expectedTypeConstant" value="2.0" />
+        <observation name="expectedTypeVariable" value="3.0" />
+        <observation name="normal" value="97.0" />
+        <observation name="probableKeyword" value="3.0" />
         <observation name="suitableClass" value="1.0" />
-        <observation name="variable" value="14.0" />
+        <observation name="variable" value="47.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="classNameOrGlobalStatic" value="59.0" />
+        <observation name="expectedTypeVariable" value="4.0" />
+        <observation name="normal" value="131.0" />
+        <observation name="probableKeyword" value="5.0" />
+        <observation name="suitableClass" value="2.0" />
+        <observation name="variable" value="45.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
@@ -573,8 +593,12 @@
         <observation name="unknown" value="51.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="unknown" value="74.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="unknown" value="200.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="unknown" value="247.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -601,9 +625,16 @@
         <observation name="true" value="2.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="18.0" />
-        <observation name="null" value="56.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="false" value="45.0" />
+        <observation name="null" value="152.0" />
+        <observation name="true" value="3.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="false" value="60.0" />
+        <observation name="null" value="186.0" />
+        <observation name="true" value="1.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
@@ -625,9 +656,15 @@
         <observation name="unknown" value="50.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="applicableByKind" value="1.0" />
-        <observation name="unknown" value="73.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="applicableByKind" value="2.0" />
+        <observation name="unknown" value="198.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="applicableByKind" value="3.0" />
+        <observation name="inapplicable" value="1.0" />
+        <observation name="unknown" value="243.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
@@ -647,8 +684,13 @@
         <observation name="normal" value="38.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="4.0" />
-        <observation name="normal" value="71.0" />
+        <observation name="UNDEFINED" value="39.0" />
+        <observation name="delegation" value="1.0" />
+        <observation name="normal" value="173.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="111.0" />
+        <observation name="normal" value="208.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -673,9 +715,14 @@
         <observation name="typedSelect" value="11.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="cancelled" value="153.0" />
-        <observation name="explicitSelect" value="62.0" />
-        <observation name="typedSelect" value="15.0" />
+        <observation name="cancelled" value="679.0" />
+        <observation name="explicitSelect" value="152.0" />
+        <observation name="typedSelect" value="64.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="cancelled" value="771.0" />
+        <observation name="explicitSelect" value="245.0" />
+        <observation name="typedSelect" value="77.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
@@ -692,7 +739,10 @@
         <observation name="BASIC" value="79.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="BASIC" value="107.0" />
+        <observation name="BASIC" value="282.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="BASIC" value="467.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -709,7 +759,10 @@
         <observation name="count" value="206.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="count" value="230.0" />
+        <observation name="count" value="895.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="count" value="1093.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -742,11 +795,18 @@
         <observation name="variance" value="0.092778" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="average" value="0.201342" />
-        <observation name="count" value="149.0" />
+        <observation name="average" value="0.145882" />
+        <observation name="count" value="425.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.117355" />
+        <observation name="variance" value="0.1137" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="average" value="0.128728" />
+        <observation name="count" value="637.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.082207" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
@@ -780,7 +840,14 @@
       </dailyData>
       <dailyData date="21-12-2019">
         <observation name="average" value="0.0" />
-        <observation name="count" value="149.0" />
+        <observation name="count" value="425.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="637.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -815,7 +882,20 @@
         <observation name="variance" value="3.459946" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="75.0" />
+        <observation name="UNDEFINED" value="196.0" />
+        <observation name="average" value="-8.636364" />
+        <observation name="count" value="33.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-37.0" />
+        <observation name="variance" value="131.638275" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="232.0" />
+        <observation name="average" value="-3.092486" />
+        <observation name="count" value="173.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-49.0" />
+        <observation name="variance" value="20.3613" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
@@ -847,12 +927,20 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="average" value="0.0" />
-        <observation name="count" value="147.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="average" value="-0.025063" />
+        <observation name="count" value="399.0" />
         <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.014978" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="average" value="-0.016293" />
+        <observation name="count" value="491.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.009597" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
@@ -885,11 +973,18 @@
         <observation name="variance" value="0.29119" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="average" value="1.369128" />
-        <observation name="count" value="149.0" />
+        <observation name="average" value="0.621176" />
+        <observation name="count" value="425.0" />
         <observation name="max" value="41.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="24.399977" />
+        <observation name="variance" value="14.849561" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="average" value="0.342229" />
+        <observation name="count" value="637.0" />
+        <observation name="max" value="9.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.818363" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
@@ -922,11 +1017,18 @@
         <observation name="variance" value="34726.336518" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="average" value="-1027.281879" />
-        <observation name="count" value="149.0" />
+        <observation name="average" value="-1049.738824" />
+        <observation name="count" value="425.0" />
         <observation name="max" value="0.0" />
-        <observation name="min" value="-1202.0" />
-        <observation name="variance" value="76140.469106" />
+        <observation name="min" value="-1203.0" />
+        <observation name="variance" value="77843.744364" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="average" value="-997.913658" />
+        <observation name="count" value="637.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1156.0" />
+        <observation name="variance" value="93041.084026" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
@@ -959,11 +1061,18 @@
         <observation name="variance" value="0.020656" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="149.0" />
+        <observation name="average" value="-0.004706" />
+        <observation name="count" value="425.0" />
         <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.002513" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="average" value="-0.006279" />
+        <observation name="count" value="637.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="-3.0" />
+        <observation name="variance" value="0.028148" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
@@ -1000,12 +1109,20 @@
         <observation name="variance" value="12991.647836" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="average" value="66.666667" />
-        <observation name="count" value="147.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="average" value="98.496241" />
+        <observation name="count" value="399.0" />
         <observation name="max" value="300.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="10999.520853" />
+        <observation name="variance" value="14134.586843" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="average" value="75.456389" />
+        <observation name="count" value="493.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="12929.363301" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
@@ -1042,12 +1159,20 @@
         <observation name="variance" value="6.792439" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="average" value="0.054422" />
-        <observation name="count" value="147.0" />
-        <observation name="max" value="6.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="average" value="0.285714" />
+        <observation name="count" value="399.0" />
+        <observation name="max" value="8.0" />
         <observation name="min" value="-1.0" />
-        <observation name="variance" value="0.262774" />
+        <observation name="variance" value="1.225819" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="average" value="0.523327" />
+        <observation name="count" value="493.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="2.971433" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
@@ -1084,12 +1209,20 @@
         <observation name="variance" value="0.692179" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="average" value="0.408163" />
-        <observation name="count" value="147.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="average" value="0.631579" />
+        <observation name="count" value="399.0" />
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.510966" />
+        <observation name="variance" value="0.690676" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="average" value="0.543611" />
+        <observation name="count" value="493.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.728471" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
@@ -1126,12 +1259,20 @@
         <observation name="variance" value="0.520421" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="average" value="0.380952" />
-        <observation name="count" value="147.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="average" value="0.501253" />
+        <observation name="count" value="399.0" />
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.494604" />
+        <observation name="variance" value="0.61116" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="72.0" />
+        <observation name="average" value="0.385396" />
+        <observation name="count" value="493.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.480074" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
@@ -1165,7 +1306,14 @@
       </dailyData>
       <dailyData date="21-12-2019">
         <observation name="average" value="0.0" />
-        <observation name="count" value="149.0" />
+        <observation name="count" value="425.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="637.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -1201,11 +1349,18 @@
         <observation name="variance" value="16.389554" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="average" value="8.778523" />
-        <observation name="count" value="149.0" />
+        <observation name="average" value="7.397647" />
+        <observation name="count" value="425.0" />
         <observation name="max" value="27.0" />
         <observation name="min" value="1.0" />
-        <observation name="variance" value="22.511036" />
+        <observation name="variance" value="24.071895" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="average" value="7.929356" />
+        <observation name="count" value="637.0" />
+        <observation name="max" value="28.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="23.13876" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
@@ -1237,12 +1392,20 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="average" value="0.0" />
-        <observation name="count" value="147.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="average" value="-0.010025" />
+        <observation name="count" value="399.0" />
         <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.005533" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="average" value="-0.016293" />
+        <observation name="count" value="491.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.009597" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -1274,12 +1437,20 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="average" value="0.0" />
-        <observation name="count" value="147.0" />
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="average" value="-25.037594" />
+        <observation name="count" value="399.0" />
         <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="14948.264874" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="average" value="-16.268839" />
+        <observation name="count" value="491.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="9569.126416" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
@@ -1311,9 +1482,17 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="1.0" />
+        <observation name="UNDEFINED" value="13.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="147.0" />
+        <observation name="count" value="399.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="73.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="491.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -1350,7 +1529,14 @@
       </dailyData>
       <dailyData date="21-12-2019">
         <observation name="average" value="1.0" />
-        <observation name="count" value="149.0" />
+        <observation name="count" value="425.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="637.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -1385,12 +1571,20 @@
         <observation name="variance" value="0.710598" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="UNDEFINED" value="63.0" />
-        <observation name="average" value="-3.521739" />
-        <observation name="count" value="23.0" />
+        <observation name="UNDEFINED" value="170.0" />
+        <observation name="average" value="-3.329412" />
+        <observation name="count" value="85.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="0.694895" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="UNDEFINED" value="245.0" />
+        <observation name="average" value="-3.544218" />
+        <observation name="count" value="147.0" />
         <observation name="max" value="-3.0" />
         <observation name="min" value="-5.0" />
-        <observation name="variance" value="0.503637" />
+        <observation name="variance" value="0.579599" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
@@ -1423,11 +1617,18 @@
         <observation name="variance" value="20187984.985018" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="average" value="872.389262" />
-        <observation name="count" value="149.0" />
+        <observation name="average" value="1902.785882" />
+        <observation name="count" value="425.0" />
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="6242167.689398" />
+        <observation name="variance" value="11564785.035773" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="average" value="3201.00471" />
+        <observation name="count" value="637.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="18283201.423339" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -1473,14 +1674,24 @@
         <observation name="3" value="2.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="0" value="45.0" />
-        <observation name="1" value="5.0" />
+        <observation name="0" value="116.0" />
+        <observation name="1" value="16.0" />
         <observation name="10" value="1.0" />
-        <observation name="2" value="6.0" />
+        <observation name="2" value="10.0" />
         <observation name="25" value="1.0" />
-        <observation name="3" value="2.0" />
+        <observation name="3" value="4.0" />
+        <observation name="4" value="2.0" />
         <observation name="41" value="1.0" />
         <observation name="6" value="1.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="0" value="189.0" />
+        <observation name="1" value="32.0" />
+        <observation name="2" value="9.0" />
+        <observation name="3" value="7.0" />
+        <observation name="4" value="2.0" />
+        <observation name="5" value="5.0" />
+        <observation name="9" value="1.0" />
       </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
@@ -1501,8 +1712,12 @@
         <observation name="withMnemonics" value="1.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="total" value="49.0" />
-        <observation name="withMnemonics" value="5.0" />
+        <observation name="total" value="115.0" />
+        <observation name="withMnemonics" value="13.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="total" value="160.0" />
+        <observation name="withMnemonics" value="8.0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
@@ -1548,16 +1763,32 @@
         <observation name="5" value="3.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="0" value="9.0" />
-        <observation name="1" value="4.0" />
-        <observation name="10" value="1.0" />
-        <observation name="2" value="21.0" />
-        <observation name="3" value="13.0" />
-        <observation name="4" value="5.0" />
-        <observation name="5" value="2.0" />
+        <observation name="0" value="19.0" />
+        <observation name="1" value="18.0" />
+        <observation name="10" value="3.0" />
+        <observation name="11" value="1.0" />
+        <observation name="14" value="1.0" />
+        <observation name="2" value="37.0" />
+        <observation name="3" value="40.0" />
+        <observation name="4" value="18.0" />
+        <observation name="5" value="3.0" />
+        <observation name="6" value="3.0" />
         <observation name="7" value="2.0" />
-        <observation name="8" value="3.0" />
+        <observation name="8" value="5.0" />
         <observation name="9" value="2.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="0" value="36.0" />
+        <observation name="1" value="49.0" />
+        <observation name="13" value="1.0" />
+        <observation name="2" value="68.0" />
+        <observation name="3" value="39.0" />
+        <observation name="4" value="24.0" />
+        <observation name="5" value="10.0" />
+        <observation name="6" value="7.0" />
+        <observation name="7" value="5.0" />
+        <observation name="8" value="2.0" />
+        <observation name="9" value="4.0" />
       </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
@@ -1578,16 +1809,23 @@
         <observation name="count" value="59.0" />
       </dailyData>
       <dailyData date="21-12-2019">
-        <observation name="average" value="494.3125" />
-        <observation name="count" value="208.0" />
+        <observation name="average" value="492.449541" />
+        <observation name="count" value="436.0" />
+      </dailyData>
+      <dailyData date="22-12-2019">
+        <observation name="average" value="382.852608" />
+        <observation name="count" value="441.0" />
       </dailyData>
     </factor>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1598,6 +1836,11 @@
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1619,7 +1862,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="googleproto" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -1627,7 +1870,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="selector" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -1635,7 +1878,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="groupchat" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -1643,30 +1886,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zerocopy" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zhangllhome.io.nio" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
@@ -1682,13 +1925,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.YieldDemo">
-    <configuration name="ClientNio" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.io.nio.selector.groupchat.ClientNio" />
+  <component name="RunManager" selected="Application.NettyClient">
+    <configuration name="CountDownTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.io.thread.concurren.CountDownTest" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangllhome.io.nio.selector.groupchat.*" />
+          <option name="PATTERN" value="com.zhangllhome.io.thread.concurren.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1696,12 +1939,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.io.thread.pattern.PriorityDemo" />
+    <configuration name="GoogleServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.io.netty.googleproto.GoogleServer" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangllhome.io.thread.pattern.*" />
+          <option name="PATTERN" value="com.zhangllhome.io.netty.googleproto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1709,12 +1952,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleModelPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.io.thread.pattern.SimpleModelPattern" />
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.io.netty.codec.protobuf.NettyClient" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangllhome.io.thread.pattern.*" />
+          <option name="PATTERN" value="com.zhangllhome.io.netty.codec.protobuf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1722,12 +1965,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.io.nio.zerocopy.TestZero" />
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.io.netty.codec.protobuf.NettyServer" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangllhome.io.nio.zerocopy.*" />
+          <option name="PATTERN" value="com.zhangllhome.io.netty.codec.protobuf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1735,12 +1978,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YieldDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.io.thread.pattern.YieldDemo" />
+    <configuration name="ServerBootStrapLearning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.io.netty.ServerBootStrapLearning" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangllhome.io.thread.pattern.*" />
+          <option name="PATTERN" value="com.zhangllhome.io.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1749,19 +1992,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClientNio" />
-      <item itemvalue="Application.SimpleModelPattern" />
-      <item itemvalue="Application.TestZero" />
-      <item itemvalue="Application.PriorityDemo" />
-      <item itemvalue="Application.YieldDemo" />
+      <item itemvalue="Application.GoogleServer" />
+      <item itemvalue="Application.ServerBootStrapLearning" />
+      <item itemvalue="Application.CountDownTest" />
+      <item itemvalue="Application.NettyServer" />
+      <item itemvalue="Application.NettyClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.YieldDemo" />
-        <item itemvalue="Application.PriorityDemo" />
-        <item itemvalue="Application.SimpleModelPattern" />
-        <item itemvalue="Application.TestZero" />
-        <item itemvalue="Application.ClientNio" />
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.CountDownTest" />
+        <item itemvalue="Application.GoogleServer" />
+        <item itemvalue="Application.ServerBootStrapLearning" />
       </list>
     </recent_temporary>
   </component>
@@ -1778,41 +2021,56 @@
       <workItem from="1576157635777" duration="3110000" />
       <workItem from="1576245901536" duration="40471000" />
       <workItem from="1576377953787" duration="2459000" />
-      <workItem from="1576758770187" duration="4680000" />
+      <workItem from="1576758770187" duration="22851000" />
+      <workItem from="1576991373081" duration="169000" />
+      <workItem from="1576991590575" duration="66000" />
+      <workItem from="1576991790946" duration="48000" />
+      <workItem from="1576991916855" duration="61000" />
+      <workItem from="1576992027012" duration="19382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50720000" />
+    <option name="totallyTimeSpent" value="88617000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73137254" visible="true" weight="0.30424145" />
-      <window_info id="Structure" order="1" sideWeight="0.26862746" side_tool="true" visible="true" weight="0.30424145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.28298888" visible="true" weight="0.2137031" />
+      <window_info id="Structure" order="1" sideWeight="0.5085066" side_tool="true" weight="0.3572594" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.22063038" side_tool="true" weight="0.3841762" />
       <window_info id="Learn" order="7" />
+      <window_info id="PlantUML" order="8" sideWeight="0.49149337" weight="0.3572594" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
-      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.49755302" visible="true" weight="0.41335455" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49836868" weight="0.5691574" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.362969" weight="0.25596184" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49510604" visible="true" weight="0.1891892" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3290938" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49510604" weight="0.3672496" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49918434" weight="0.32750398" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49673736" weight="0.32750398" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49918434" weight="0.5437202" />
-      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.502447" side_tool="true" visible="true" weight="0.41335455" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.50326264" side_tool="true" visible="true" weight="0.23688394" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.40538335" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.22512235" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32952693" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.15823817" />
@@ -1822,6 +2080,41 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.28298888" visible="true" weight="0.33278957" />
+      <window_info id="Structure" order="1" sideWeight="0.5085066" side_tool="true" weight="0.3572594" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.22063038" side_tool="true" weight="0.3841762" />
+      <window_info id="Learn" order="7" />
+      <window_info id="PlantUML" order="8" sideWeight="0.49149337" weight="0.3572594" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49836868" weight="0.5691574" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.36378467" visible="true" weight="0.43561208" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49510604" weight="0.3672496" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49836868" weight="0.32750398" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49918434" weight="0.5437202" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.6362153" side_tool="true" visible="true" weight="0.43561208" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.22512235" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32952693" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.15823817" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32952693" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1951,15 +2244,195 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///opt/modules/jdk1.8.0_151/src.zip!/java/lang/Thread.java</url>
-          <line>1152</line>
+          <line>1092</line>
           <properties />
-          <option name="timeStamp" value="41" />
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///opt/modules/jdk1.8.0_151/src.zip!/java/lang/Thread.java</url>
-          <line>1090</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/ServerBootStrapLearning.java</url>
+          <line>11</line>
           <properties />
-          <option name="timeStamp" value="42" />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/SingleThreadEventLoop.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>459</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>472</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>474</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>481</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>503</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java</url>
+          <line>383</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java</url>
+          <line>287</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java</url>
+          <line>294</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java</url>
+          <line>361</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java</url>
+          <line>365</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java</url>
+          <line>364</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>253</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>482</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>487</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>483</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>484</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>485</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>498</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>500</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>505</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/logging/LoggingHandler.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java</url>
+          <line>1335</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>543</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>557</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/concurren/CountDownTest.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/FileChannelDemo.java</url>
@@ -1975,554 +2448,525 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>getThreadGroup()</expression-string>
+        <expression-string>msg instanceof String</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>others.isReadable()</expression-string>
+        <expression-string>msg</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>others.channel() instanceof SocketChannel</expression-string>
+        <expression-string>handler</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>selector.selectedKeys()</expression-string>
+        <expression-string>executor.inEventLoop()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>selector.select()</expression-string>
+        <expression-string>this</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>contents.</expression-string>
+        <expression-string>eventLoop.inEventLoop()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>contents.limit()</expression-string>
+        <expression-string>AbstractChannel.this</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>contents.capacity()</expression-string>
+        <expression-string>((NioServerSocketChannel)((DefaultChannelPromise)promise).channel).unsafe</expression-string>
         <language-id>JAVA</language-id>
+        <custom-info>io.netty.channel.socket.nio.NioServerSocketChannel,io.netty.channel.DefaultChannelPromise</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>contents.toString()</expression-string>
+        <expression-string>ChannelOption.SO_KEEPALIVE</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/java.nio.channels.FileChannel">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.nio.channels.FileChannel</OriginalElement>
-          <nodes>
-            <node x="463.75" y="380.0">java.nio.channels.SeekableByteChannel</node>
-            <node x="634.75" y="304.0">java.nio.channels.ScatteringByteChannel</node>
-            <node x="568.125" y="228.0">java.nio.channels.ReadableByteChannel</node>
-            <node x="0.0" y="228.0">java.nio.channels.InterruptibleChannel</node>
-            <node x="278.25" y="76.0">java.io.Closeable</node>
-            <node x="491.75" y="304.0">java.nio.channels.ByteChannel</node>
-            <node x="361.125" y="228.0">java.nio.channels.WritableByteChannel</node>
-            <node x="23.75" y="304.0">java.nio.channels.spi.AbstractInterruptibleChannel</node>
-            <node x="264.25" y="0.0">java.lang.AutoCloseable</node>
-            <node x="392.8828125" y="456.0">java.nio.channels.FileChannel</node>
-            <node x="285.75" y="304.0">java.nio.channels.GatheringByteChannel</node>
-            <node x="285.25" y="152.0">java.nio.channels.Channel</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.nio.channels.ByteChannel" target="java.nio.channels.WritableByteChannel">
-              <point x="-30.75" y="-13.0" />
-              <point x="522.5" y="279.0" />
-              <point x="495.375" y="279.0" />
-              <point x="44.75" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.FileChannel" target="java.nio.channels.ScatteringByteChannel">
-              <point x="46.125" y="-13.0" />
-              <point x="500.5078125" y="436.0" />
-              <point x="731.25" y="436.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.WritableByteChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-13.0" />
-              <point x="450.625" y="208.0" />
-              <point x="344.625" y="208.0" />
-              <point x="11.875" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.ByteChannel" target="java.nio.channels.ReadableByteChannel">
-              <point x="30.75" y="-13.0" />
-              <point x="584.0" y="279.0" />
-              <point x="612.875" y="279.0" />
-              <point x="-44.75" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.ReadableByteChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-13.0" />
-              <point x="657.625" y="198.0" />
-              <point x="368.375" y="198.0" />
-              <point x="35.625" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.spi.AbstractInterruptibleChannel" target="java.nio.channels.Channel">
-              <point x="60.5" y="-13.0" />
-              <point x="205.25" y="279.0" />
-              <point x="196.5" y="279.0" />
-              <point x="196.5" y="208.0" />
-              <point x="320.875" y="208.0" />
-              <point x="-11.875" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.GatheringByteChannel" target="java.nio.channels.WritableByteChannel">
-              <point x="0.0" y="-13.0" />
-              <point x="378.75" y="279.0" />
-              <point x="405.875" y="279.0" />
-              <point x="-44.75" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.InterruptibleChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-13.0" />
-              <point x="93.0" y="198.0" />
-              <point x="297.125" y="198.0" />
-              <point x="-35.625" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.ScatteringByteChannel" target="java.nio.channels.ReadableByteChannel">
-              <point x="0.0" y="-13.0" />
-              <point x="731.25" y="279.0" />
-              <point x="702.375" y="279.0" />
-              <point x="44.75" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.FileChannel" target="java.nio.channels.SeekableByteChannel">
-              <point x="15.375" y="-13.0" />
-              <point x="469.7578125" y="426.0" />
-              <point x="553.25" y="426.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.SeekableByteChannel" target="java.nio.channels.ByteChannel">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.FileChannel" target="java.nio.channels.GatheringByteChannel">
-              <point x="-15.375" y="-13.0" />
-              <point x="439.0078125" y="426.0" />
-              <point x="378.75" y="426.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.spi.AbstractInterruptibleChannel" target="java.nio.channels.InterruptibleChannel">
-              <point x="-60.5" y="-13.0" />
-              <point x="84.25" y="279.0" />
-              <point x="93.0" y="279.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.Channel" target="java.io.Closeable">
-              <point x="0.0" y="-13.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-            <edge source="java.nio.channels.FileChannel" target="java.nio.channels.spi.AbstractInterruptibleChannel">
-              <point x="-46.125" y="-13.0" />
-              <point x="408.2578125" y="436.0" />
-              <point x="144.75" y="436.0" />
-              <point x="0.0" y="13.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7948113207547169" x="292.0" y="201.0" />
-          <SelectedNodes>
-            <node>java.nio.channels.FileChannel</node>
-            <node>java.nio.channels.Channel</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/nio/channels/Channel.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelInboundInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+        <state relative-caret-position="30">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/io/FileDescriptor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelInboundHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="72" column="41" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="41" />
+        <state relative-caret-position="47">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/FileChannelImpl.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="103" column="19" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="19" />
+        <state relative-caret-position="392">
+          <caret line="78" column="48" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/abcde.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/nio/channels/FileChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="384" column="24" selection-start-line="384" selection-start-column="24" selection-end-line="384" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/abc.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/abcd.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/file02.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/file01.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/SocketChannelImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3780">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/EPollArrayWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="221" column="23" selection-start-line="221" selection-start-column="23" selection-end-line="221" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/PollSelectorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/SelectorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/EPollSelectorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2160">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/nio/channels/Selector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="246" column="60" selection-start-line="246" selection-start-column="60" selection-end-line="246" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/nio/channels/spi/AbstractSelectableChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="294" column="20" selection-start-line="294" selection-start-column="12" selection-end-line="294" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/nio/channels/ServerSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="231" column="6" lean-forward="true" selection-start-line="231" selection-start-column="6" selection-end-line="231" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="1332" column="19" selection-start-line="1332" selection-start-column="19" selection-end-line="1332" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/NIObuffer01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/FileChannelDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/MapperByteBufferDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/NIOoutinputDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/NIOoutinputDemo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/ScatteringAndGatheringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/ReadOnlyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/nio/channels/SocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="458" column="33" selection-start-line="458" selection-start-column="20" selection-end-line="458" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aio/AioStart.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="51" column="52" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/net/SocketAddress.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        <state relative-caret-position="2550">
+          <caret line="201" column="33" selection-start-line="201" selection-start-column="33" selection-end-line="201" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/ChannelFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
+        <state relative-caret-position="195">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/FastThreadLocalRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" column="58" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/DefaultThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="107" column="16" selection-start-line="107" selection-start-column="15" selection-end-line="107" selection-end-column="16" />
+          <folding>
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/ThreadPerTaskExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/MultithreadEventLoopGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="77" column="35" lean-forward="true" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="37" />
+          <folding>
+            <element signature="e#3118#3119#0" expanded="true" />
+            <element signature="e#3165#3166#0" expanded="true" />
+            <element signature="e#3343#3344#0" expanded="true" />
+            <element signature="e#3390#3391#0" expanded="true" />
+            <element signature="e#3465#3466#0" expanded="true" />
+            <element signature="e#3512#3513#0" expanded="true" />
+            <element signature="e#3620#3621#0" expanded="true" />
+            <element signature="e#3676#3677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/ServerBootStrapLearning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPromise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="148" column="27" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
+        <state relative-caret-position="127">
+          <caret line="1090" selection-start-line="1090" selection-end-line="1090" />
           <folding>
-            <element signature="e#15020#15021#0" expanded="true" />
-            <element signature="e#15084#15085#0" expanded="true" />
-            <element signature="e#42956#42957#0" expanded="true" />
-            <element signature="e#42987#42988#0" expanded="true" />
             <element signature="e#44253#44254#0" expanded="true" />
             <element signature="e#44281#44282#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/simple/NettyServer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/Channel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="93">
+          <caret line="208" column="19" lean-forward="true" selection-start-line="208" selection-start-column="19" selection-end-line="208" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="379">
+          <caret line="57" column="52" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/epoll/AbstractEpollStreamChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/nio/ByteBuffer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3555">
-          <caret line="262" column="16" selection-start-line="262" selection-start-column="16" selection-end-line="262" selection-end-column="16" />
+        <state relative-caret-position="225">
+          <caret line="48" column="62" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/nio/Buffer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/EventLoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5220">
-          <caret line="377" column="24" selection-start-line="377" selection-start-column="24" selection-end-line="377" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/YieldDemo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrapConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/MyHttpHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="-884">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1328#1329#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final.jar!/io/netty/handler/codec/http/HttpServerCodec.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/ServerBootstrapConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="31" selection-start-line="24" selection-start-column="33" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="107">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding>
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/codec/http/HttpServerCodec.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/EventLoopGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ReflectiveChannelFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="82" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractEventLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
-          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+          <caret line="125" column="25" lean-forward="true" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="31" />
+          <folding>
+            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1736#1737#0" expanded="true" />
+            <element signature="e#1986#1987#0" expanded="true" />
+            <element signature="e#2033#2034#0" expanded="true" />
+            <element signature="e#2461#2462#0" expanded="true" />
+            <element signature="e#2530#2531#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/GoogleServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1159#1669#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="69" />
+        <state relative-caret-position="240">
+          <caret line="65" column="55" lean-forward="true" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/Demo01.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/GenericFutureListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/groupchat/ClientNio.java">
+    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        <state relative-caret-position="256">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelOutboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="383" selection-start-line="383" selection-end-line="383" />
+          <folding>
+            <element signature="e#3972#3973#0" expanded="true" />
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4070#4071#0" expanded="true" />
+            <element signature="e#4095#4096#0" expanded="true" />
+            <element signature="e#4148#4149#0" expanded="true" />
+            <element signature="e#4203#4204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="365" selection-start-line="365" selection-end-line="365" />
+          <folding>
+            <element signature="e#3460#3461#0" expanded="true" />
+            <element signature="e#3491#3492#0" expanded="true" />
+            <element signature="e#8706#8707#0" expanded="true" />
+            <element signature="e#8766#8767#0" expanded="true" />
+            <element signature="e#13563#13913#0" expanded="true" />
+            <element signature="e#13912#13913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/logging/LoggingHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="1335" selection-start-line="1335" selection-end-line="1335" />
+          <folding>
+            <element signature="e#44797#44798#0" expanded="true" />
+            <element signature="e#44832#44833#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="557" selection-start-line="557" selection-end-line="557" />
+          <folding>
+            <element signature="e#4663#4664#0" expanded="true" />
+            <element signature="e#4718#4719#0" expanded="true" />
+            <element signature="e#5714#5715#0" expanded="true" />
+            <element signature="e#5745#5746#0" expanded="true" />
+            <element signature="e#9753#9754#0" expanded="true" />
+            <element signature="e#9797#9798#0" expanded="true" />
+            <element signature="e#10308#10309#0" expanded="true" />
+            <element signature="e#10337#10338#0" expanded="true" />
+            <element signature="e#14811#15001#0" expanded="true" />
+            <element signature="e#15000#15001#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/Concurent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+          <folding>
+            <element signature="e#2902#2903#0" expanded="true" />
+            <element signature="e#2960#2961#0" expanded="true" />
+            <element signature="e#3111#3112#0" expanded="true" />
+            <element signature="e#3152#3153#0" expanded="true" />
+            <element signature="e#4007#4008#0" expanded="true" />
+            <element signature="e#4071#4072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/concurren/CountDownTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="124" column="32" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/config/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/codec/string/StringEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="26" />
+          <folding>
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2123#2124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+          <folding>
+            <element signature="e#5625#5626#0" expanded="true" />
+            <element signature="e#5684#5685#0" expanded="true" />
+            <element signature="e#5770#5771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/SingleThreadEventLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#3045#3046#0" expanded="true" />
+            <element signature="e#3118#3119#0" expanded="true" />
+            <element signature="e#4932#4933#0" expanded="true" />
+            <element signature="e#4995#4996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="339" selection-start-line="339" selection-end-line="339" />
+          <folding>
+            <element signature="e#14892#14893#0" expanded="true" />
+            <element signature="e#14947#14948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/groupchat/GroupNIOServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/PServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-509">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="80" column="25" lean-forward="true" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/zerocopy/TestZero.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+        <state relative-caret-position="288">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/PriorityDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/NettyClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/thread/pattern/SimpleModelPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOClientWarp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/MySelfNIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="149">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

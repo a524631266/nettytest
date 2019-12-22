@@ -1,0 +1,87 @@
+@startuml
+
+class ServerBootStrap{
+==属性==
+    - {field} valitile childOptions: Map 子group的选项
+    - childAttrs: 子属性,暂时还不太清楚使用
+    - {field} valitile childGroup : EventLoopGroup 子group
+    - {field} config: ServerBootStrapConfig
+    - {field} childHandler: ChannelHandler
+==启动流程方法 ==
+    + group(bossgroup)
+    + group(bossgroup, workgroup)
+            在抽象父类中注册 group
+            在本类中注册 childGroup
+    + childOption(ChannelOption,value)
+    + childHandler(ChannelHandler)
+    - self() 自身对象
+    # [must] init()
+        必须重写的普通方法,在模板方法的bind触发阶段会调用的方法
+}
+
+class ServerBootStrapConfig{
+
+}
+class ChannelHandler{
+}
+class ChannelOption{
+    ==描述==
+    通常存储通道的选项的名字,并
+    设置参数的类,可以理解为枚举类,但是不是以枚举实现的
+    ==重要属性==
+    + static SO_KEEPALIVE: ChannelOption 保持链接一直激活的状态
+    + static SO_BACKLOG:ChannelOption 请求进入队列的最大数量
+    == 属性成员 ==
+    + id 全局id
+    + name 名字
+    + uniquifier
+
+
+    - pool 存储name 和id 的配置池,防止id,name重复
+}
+
+ServerBootStrap o-- ServerBootStrapConfig
+ServerBootStrap o-- ChannelHandler
+ServerBootStrap o-- ChannelOption
+class ServerChannel {
+
+}
+
+
+class AbstractBootstrap<ServerBootstrap, ServerChannel>{
+    == 属性 ==
+
+    ==模板方法==
+    bind()
+    bind(int port)
+    bint(address,port)
+    channel(class)
+        注入一个可以生成select的类
+        反射方式newInstance创建一个含有空构造的类
+    == 普通方法==
+    + {abstract} init () 必须重写的方法
+
+    - doBind() bind重写方法都会调用的钩子方法
+        channel工厂函数
+    - initAndRegister
+}
+
+interface ChannelFactory <T extends Channel>{
+    {abstract} newChannel()
+    必须实现一个创建新通道的接口
+    定义一个指定类型通道的工厂
+}
+
+class ReflectiveChannelFactory <T extends Channel>{
+    newChannel()
+        clazz.getConstructor().newInstance()
+}
+
+interface Channel{
+}
+
+
+ChannelFactory <|.. ReflectiveChannelFactory
+note top of AbstractBootstrap:  这是一个抽象的启动类,定义类一个模板方法bind
+AbstractBootstrap <|-- ServerBootStrap
+@enduml

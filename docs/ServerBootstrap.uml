@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>io.netty.bootstrap.ServerBootstrap</OriginalElement>
+  <nodes>
+    <node x="179.75" y="0.0">io.netty.channel.Channel</node>
+    <node x="50.75" y="58.0">java.lang.Cloneable</node>
+    <node x="0.0" y="501.0">io.netty.bootstrap.ServerBootstrap</node>
+    <node x="2.0" y="192.0">io.netty.bootstrap.AbstractBootstrap</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="io.netty.bootstrap.ServerBootstrap" target="io.netty.bootstrap.AbstractBootstrap">
+      <point x="0.0" y="-129.5" />
+      <point x="0.0" y="129.5" />
+    </edge>
+    <edge source="io.netty.bootstrap.AbstractBootstrap" target="java.lang.Cloneable">
+      <point x="-90.25" y="-129.5" />
+      <point x="92.25" y="167.0" />
+      <point x="105.25" y="167.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="io.netty.bootstrap.AbstractBootstrap" target="io.netty.channel.Channel">
+      <point x="90.25" y="-129.5" />
+      <point x="272.75" y="167.0" />
+      <point x="259.75" y="167.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="371.4228855721393" y="608.3084577114428" />
+  <SelectedNodes>
+    <node>io.netty.channel.Channel</node>
+    <node>java.lang.Cloneable</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
