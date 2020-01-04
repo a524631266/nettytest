@@ -20,7 +20,7 @@ public final class HolderDemo {
 
     public static void main(String[] args) {
 //        new HolderDemo();
-        HolderDemo instance = HolderDemo.instance();
+        HolderDemo.instance();
     }
 
 }
