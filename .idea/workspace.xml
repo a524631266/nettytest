@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03d2f650-9049-45cf-a3e6-e2abbe3aa05c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/waitset/WaitSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/LifeCycleListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/ObservableRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/ThreadLifeCycleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/ThreadLifeCycleObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/BinaryObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/HexObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/OctalObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/TestObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/single/HolderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/single/HolderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/waitset/WaitSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/waitset/WaitSetDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -124,13 +134,134 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/waitset/WaitSetDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="105">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding>
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/BinaryObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+              <folding>
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/OctalObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/HexObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/TestObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/ObservableRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/LifeCycleListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/ThreadLifeCycleObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/ThreadLifeCycleClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#182#192#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,6 +274,7 @@
       <list>
         <option value="UML Sequence" />
         <option value="GuiceNewModule" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -177,13 +309,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/homezhangll/datastruct/hash/MD5.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/TestIo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/NIObuffer01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/FileChannelDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/NIOoutinputDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/NIOoutinputDemo02.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/NIOoutinputDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/ReadOnlyDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/Mapper.java" />
         <option value="$PROJECT_DIR$/data/file01.txt" />
@@ -224,6 +349,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/thread/QuestingAboutInterupt.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/single/HolderDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/waitset/WaitSetDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/BinaryObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/OctalObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/HexObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/TestObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/ObservableRunnable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/LifeCycleListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/ThreadLifeCycleClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/ThreadLifeCycleObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/ObservableRunnable.java" />
       </list>
     </option>
   </component>
@@ -274,6 +410,9 @@
       <dailyData date="04-01-2020">
         <observation name="false" value="78.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="false" value="206.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="12-12-2019">
@@ -311,6 +450,10 @@
         <observation name="UNDEFINED" value="11.0" />
         <observation name="false" value="67.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="31.0" />
+        <observation name="false" value="175.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
       <dailyData date="12-12-2019">
@@ -343,6 +486,9 @@
       </dailyData>
       <dailyData date="04-01-2020">
         <observation name="false" value="78.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="false" value="206.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
@@ -380,6 +526,10 @@
       <dailyData date="04-01-2020">
         <observation name="0" value="22.0" />
         <observation name="UNDEFINED" value="56.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="0" value="63.0" />
+        <observation name="UNDEFINED" value="143.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -428,6 +578,11 @@
         <observation name="false" value="23.0" />
         <observation name="true" value="48.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="false" value="75.0" />
+        <observation name="true" value="112.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="12-12-2019">
@@ -474,6 +629,11 @@
         <observation name="UNDEFINED" value="7.0" />
         <observation name="false" value="55.0" />
         <observation name="true" value="16.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="false" value="111.0" />
+        <observation name="true" value="76.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -522,6 +682,11 @@
         <observation name="false" value="55.0" />
         <observation name="true" value="16.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="false" value="111.0" />
+        <observation name="true" value="76.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="12-12-2019">
@@ -568,6 +733,11 @@
         <observation name="UNDEFINED" value="7.0" />
         <observation name="false" value="55.0" />
         <observation name="true" value="16.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="false" value="111.0" />
+        <observation name="true" value="76.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
@@ -616,6 +786,11 @@
         <observation name="false" value="39.0" />
         <observation name="true" value="32.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="false" value="152.0" />
+        <observation name="true" value="35.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="12-12-2019">
@@ -654,6 +829,10 @@
         <observation name="false" value="73.0" />
         <observation name="true" value="5.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="false" value="200.0" />
+        <observation name="true" value="6.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="12-12-2019">
@@ -690,6 +869,10 @@
       <dailyData date="04-01-2020">
         <observation name="NORMAL" value="71.0" />
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="NORMAL" value="187.0" />
+        <observation name="UNDEFINED" value="19.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -748,6 +931,14 @@
         <observation name="maybeExpected" value="3.0" />
         <observation name="normal" value="46.0" />
         <observation name="unexpected" value="7.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="expected" value="30.0" />
+        <observation name="maybeExpected" value="12.0" />
+        <observation name="normal" value="138.0" />
+        <observation name="ofDefaultType" value="3.0" />
+        <observation name="unexpected" value="4.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
@@ -825,6 +1016,19 @@
         <observation name="probableKeyword" value="1.0" />
         <observation name="variable" value="2.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="OTHER" value="1.0" />
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="classNameOrGlobalStatic" value="38.0" />
+        <observation name="expectedTypeArgument" value="1.0" />
+        <observation name="expectedTypeConstant" value="1.0" />
+        <observation name="expectedTypeMethod" value="1.0" />
+        <observation name="expectedTypeVariable" value="11.0" />
+        <observation name="normal" value="97.0" />
+        <observation name="probableKeyword" value="6.0" />
+        <observation name="suitableClass" value="2.0" />
+        <observation name="variable" value="29.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
       <dailyData date="12-12-2019">
@@ -862,6 +1066,10 @@
       <dailyData date="04-01-2020">
         <observation name="UNDEFINED" value="7.0" />
         <observation name="unknown" value="71.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="unknown" value="187.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -915,6 +1123,12 @@
         <observation name="null" value="53.0" />
         <observation name="true" value="6.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="false" value="35.0" />
+        <observation name="null" value="146.0" />
+        <observation name="true" value="6.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
       <dailyData date="12-12-2019">
@@ -957,6 +1171,11 @@
         <observation name="UNDEFINED" value="7.0" />
         <observation name="unknown" value="71.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="applicableByKind" value="2.0" />
+        <observation name="unknown" value="185.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="12-12-2019">
@@ -995,6 +1214,10 @@
       <dailyData date="04-01-2020">
         <observation name="UNDEFINED" value="29.0" />
         <observation name="normal" value="49.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="83.0" />
+        <observation name="normal" value="123.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -1039,9 +1262,14 @@
         <observation name="typedSelect" value="7.0" />
       </dailyData>
       <dailyData date="04-01-2020">
-        <observation name="cancelled" value="102.0" />
+        <observation name="cancelled" value="161.0" />
         <observation name="explicitSelect" value="62.0" />
         <observation name="typedSelect" value="16.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="cancelled" value="381.0" />
+        <observation name="explicitSelect" value="147.0" />
+        <observation name="typedSelect" value="60.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
@@ -1072,6 +1300,9 @@
       <dailyData date="04-01-2020">
         <observation name="BASIC" value="97.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="BASIC" value="274.0" />
+      </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="12-12-2019">
@@ -1099,7 +1330,10 @@
         <observation name="count" value="96.0" />
       </dailyData>
       <dailyData date="04-01-2020">
-        <observation name="count" value="180.0" />
+        <observation name="count" value="239.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="count" value="588.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -1166,6 +1400,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.084741" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="average" value="0.092457" />
+        <observation name="count" value="411.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.059405" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
       <dailyData date="12-12-2019">
@@ -1227,6 +1468,13 @@
       <dailyData date="04-01-2020">
         <observation name="average" value="0.0" />
         <observation name="count" value="155.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="411.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -1300,6 +1548,14 @@
         <observation name="min" value="-65.0" />
         <observation name="variance" value="394.785103" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="182.0" />
+        <observation name="average" value="-8.978723" />
+        <observation name="count" value="47.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-57.0" />
+        <observation name="variance" value="149.489549" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="12-12-2019">
@@ -1369,6 +1625,14 @@
         <observation name="min" value="-1.0" />
         <observation name="variance" value="0.017286" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="average" value="-0.053619" />
+        <observation name="count" value="373.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.043851" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:position">
       <dailyData date="12-12-2019">
@@ -1433,6 +1697,13 @@
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.14407" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="average" value="0.184915" />
+        <observation name="count" value="411.0" />
+        <observation name="max" value="5.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.261771" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
@@ -1499,6 +1770,13 @@
         <observation name="min" value="-1153.0" />
         <observation name="variance" value="42262.89402" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="average" value="-1052.418491" />
+        <observation name="count" value="411.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1202.0" />
+        <observation name="variance" value="70795.449838" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="12-12-2019">
@@ -1563,6 +1841,13 @@
         <observation name="max" value="0.0" />
         <observation name="min" value="-1.0" />
         <observation name="variance" value="0.027069" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="average" value="-0.029197" />
+        <observation name="count" value="411.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-2.0" />
+        <observation name="variance" value="0.038469" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
@@ -1638,6 +1923,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="12913.338425" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="average" value="110.187668" />
+        <observation name="count" value="373.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="13887.063031" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="12-12-2019">
@@ -1711,6 +2004,14 @@
         <observation name="max" value="8.0" />
         <observation name="min" value="-1.0" />
         <observation name="variance" value="6.776054" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="average" value="1.040214" />
+        <observation name="count" value="373.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="5.246636" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
@@ -1786,6 +2087,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.599233" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="average" value="0.815013" />
+        <observation name="count" value="373.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.841619" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="12-12-2019">
@@ -1860,6 +2169,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.239746" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="average" value="0.375335" />
+        <observation name="count" value="373.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.435048" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
       <dailyData date="12-12-2019">
@@ -1921,6 +2238,13 @@
       <dailyData date="04-01-2020">
         <observation name="average" value="0.0" />
         <observation name="count" value="155.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="411.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -1989,6 +2313,13 @@
         <observation name="max" value="22.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="9.912201" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="average" value="6.618005" />
+        <observation name="count" value="411.0" />
+        <observation name="max" value="39.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="10.992661" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
@@ -2059,6 +2390,14 @@
         <observation name="min" value="-1.0" />
         <observation name="variance" value="0.017286" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="average" value="-0.048257" />
+        <observation name="count" value="373.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.04128" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
       <dailyData date="12-12-2019">
@@ -2127,6 +2466,14 @@
         <observation name="max" value="0.0" />
         <observation name="min" value="-999.0" />
         <observation name="variance" value="17251.027359" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="average" value="-53.544236" />
+        <observation name="count" value="373.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="43733.381934" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
@@ -2197,6 +2544,14 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="19.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="373.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
       <dailyData date="12-12-2019">
@@ -2258,6 +2613,13 @@
       <dailyData date="04-01-2020">
         <observation name="average" value="1.0" />
         <observation name="count" value="155.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="411.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -2331,6 +2693,14 @@
         <observation name="min" value="-5.0" />
         <observation name="variance" value="1.125997" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="UNDEFINED" value="134.0" />
+        <observation name="average" value="-3.06993" />
+        <observation name="count" value="143.0" />
+        <observation name="max" value="-3.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="0.060777" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
       <dailyData date="12-12-2019">
@@ -2395,6 +2765,13 @@
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="16048526.098515" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="average" value="2233.800487" />
+        <observation name="count" value="411.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="14237667.858866" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -2473,6 +2850,13 @@
         <observation name="1" value="11.0" />
         <observation name="2" value="1.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="0" value="124.0" />
+        <observation name="1" value="15.0" />
+        <observation name="2" value="5.0" />
+        <observation name="4" value="2.0" />
+        <observation name="5" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
       <dailyData date="12-12-2019">
@@ -2509,6 +2893,10 @@
       </dailyData>
       <dailyData date="04-01-2020">
         <observation name="total" value="36.0" />
+        <observation name="withMnemonics" value="4.0" />
+      </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="total" value="105.0" />
         <observation name="withMnemonics" value="4.0" />
       </dailyData>
     </factor>
@@ -2603,6 +2991,15 @@
         <observation name="4" value="4.0" />
         <observation name="5" value="1.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="0" value="15.0" />
+        <observation name="1" value="27.0" />
+        <observation name="2" value="65.0" />
+        <observation name="3" value="25.0" />
+        <observation name="4" value="10.0" />
+        <observation name="5" value="4.0" />
+        <observation name="9" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
       <dailyData date="12-12-2019">
@@ -2641,11 +3038,15 @@
         <observation name="average" value="280.796296" />
         <observation name="count" value="54.0" />
       </dailyData>
+      <dailyData date="05-01-2020">
+        <observation name="average" value="310.403226" />
+        <observation name="count" value="186.0" />
+      </dailyData>
     </factor>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="true" />
+      <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -2681,7 +3082,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="single" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangllhome" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -2689,7 +3090,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="waitset" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangllhome" type="462c0819:PsiDirectoryNode" />
+              <item name="multithread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangllhome" type="462c0819:PsiDirectoryNode" />
+              <item name="multithread" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -2724,7 +3136,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zhangllhome.multithread.pattern" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhangllhome.multithread.pattern.observer" />
       <recent name="com.zhangllhome.io.nio" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -2744,20 +3160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WaitSetDemo">
-    <configuration name="DynamicAlgrithe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.algorithm.DynamicAlgrithe" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangllhome.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadLifeCycleClient">
     <configuration name="HolderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangllhome.multithread.single.HolderDemo" />
       <module name="algorithm" />
@@ -2771,12 +3174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.io.netty.codec.protobuf.NettyClient" />
+    <configuration name="QuestingAboutInterupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.thread.QuestingAboutInterupt" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangllhome.io.netty.codec.protobuf.*" />
+          <option name="PATTERN" value="com.zhangllhome.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -2784,12 +3187,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestingAboutInterupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.thread.QuestingAboutInterupt" />
+    <configuration name="TestObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.multithread.pattern.observer.TestObserver" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhangllhome.thread.*" />
+          <option name="PATTERN" value="com.zhangllhome.multithread.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLifeCycleClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.multithread.pattern.ThreadLifeCycleClient" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangllhome.multithread.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -2811,19 +3227,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NettyClient" />
-      <item itemvalue="Application.DynamicAlgrithe" />
       <item itemvalue="Application.QuestingAboutInterupt" />
       <item itemvalue="Application.HolderDemo" />
       <item itemvalue="Application.WaitSetDemo" />
+      <item itemvalue="Application.TestObserver" />
+      <item itemvalue="Application.ThreadLifeCycleClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLifeCycleClient" />
+        <item itemvalue="Application.TestObserver" />
         <item itemvalue="Application.WaitSetDemo" />
         <item itemvalue="Application.HolderDemo" />
         <item itemvalue="Application.QuestingAboutInterupt" />
-        <item itemvalue="Application.DynamicAlgrithe" />
-        <item itemvalue="Application.NettyClient" />
       </list>
     </recent_temporary>
   </component>
@@ -2850,12 +3266,12 @@
       <workItem from="1577029114112" duration="98000" />
       <workItem from="1577029256998" duration="196000" />
       <workItem from="1577029497593" duration="34000" />
-      <workItem from="1577029576278" duration="8567000" />
+      <workItem from="1577029576278" duration="13693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97950000" />
+    <option name="totallyTimeSpent" value="103076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2870,7 +3286,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.28298888" visible="true" weight="0.20880914" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.28298888" visible="true" weight="0.30179444" />
       <window_info id="Structure" order="1" sideWeight="0.5085066" side_tool="true" weight="0.3572594" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2885,13 +3301,13 @@
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49673736" weight="0.3290938" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.34991843" weight="0.3418124" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.34910277" visible="true" weight="0.11605723" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50570965" side_tool="true" weight="0.22893482" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49510604" weight="0.32750398" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49918434" weight="0.5437202" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.50489396" side_tool="true" visible="true" weight="0.3418124" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.6508972" side_tool="true" visible="true" weight="0.11605723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.22512235" />
@@ -3295,6 +3711,10 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
@@ -3346,104 +3766,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/ThreadPerTaskExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/MultithreadEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="77" column="35" lean-forward="true" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="37" />
-          <folding>
-            <element signature="e#3118#3119#0" expanded="true" />
-            <element signature="e#3165#3166#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-            <element signature="e#3390#3391#0" expanded="true" />
-            <element signature="e#3465#3466#0" expanded="true" />
-            <element signature="e#3512#3513#0" expanded="true" />
-            <element signature="e#3620#3621#0" expanded="true" />
-            <element signature="e#3676#3677#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/ServerBootStrapLearning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPromise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/modules/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="1090" selection-start-line="1090" selection-end-line="1090" />
-          <folding>
-            <element signature="e#44253#44254#0" expanded="true" />
-            <element signature="e#44281#44282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="208" column="19" lean-forward="true" selection-start-line="208" selection-start-column="19" selection-end-line="208" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="57" column="52" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/epoll/AbstractEpollStreamChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="48" column="62" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/EventLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrapConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-884">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="31" />
-          <folding>
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/ServerBootstrapConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -3802,10 +4124,118 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/waitset/WaitSetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="105">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#182#192#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/BinaryObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/OctalObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/HexObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/threadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/TestObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/ThreadLifeCycleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/ThreadLifeCycleObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/LifeCycleListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/ObservableRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
           </folding>
         </state>
       </provider>
