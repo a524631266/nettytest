@@ -1,0 +1,26 @@
+@startuml
+title 泡茶行为
+
+
+start
+
+fork
+:洗水壶;
+-[#blue]-> 1分钟;
+
+:烧开水;
+-[#red]-> 15分钟;
+fork again
+:细茶壶;
+-[#blue]-> 1分钟;
+:洗茶杯;
+-[#blue]-> 2分钟;
+:洗茶叶;
+-[#blue]-> 1分钟;
+endfork
+:and 操作等待两条线都完成;
+-[#green]->
+:泡茶;
+stop
+
+@enduml

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03d2f650-9049-45cf-a3e6-e2abbe3aa05c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/future/FutureTask01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/lock/ReadWriteLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/lock/ReadWriteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/futureTaskTimeSeries.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/future/FutureTask02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/Student.proto">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -128,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/waitset/WaitSetDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,8 +152,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/BinaryObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#141#142#0" expanded="true" />
                 <element signature="e#204#205#0" expanded="true" />
@@ -205,6 +204,15 @@
                 <element signature="e#978#979#0" expanded="true" />
                 <element signature="e#1014#1015#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/futureTaskTimeSeries.puml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -267,13 +275,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/future/FutureTask01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/future/FutureTask02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -349,8 +371,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/ScatterAndGateringDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/ScatteringAndGatheringDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/Demo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/io/nio/selector/NIOClient.java" />
@@ -400,6 +420,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/lock/ReadWriteLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/lock/ReadWriteTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/future/FutureTask01.java" />
+        <option value="$PROJECT_DIR$/docs/futureTaskTimeSeries.puml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/future/FutureTask02.java" />
       </list>
     </option>
   </component>
@@ -451,7 +473,7 @@
         <observation name="false" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="false" value="19.0" />
+        <observation name="false" value="91.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
@@ -491,8 +513,8 @@
         <observation name="false" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="5.0" />
-        <observation name="false" value="14.0" />
+        <observation name="UNDEFINED" value="27.0" />
+        <observation name="false" value="64.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
@@ -527,7 +549,7 @@
         <observation name="false" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="false" value="19.0" />
+        <observation name="false" value="91.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
@@ -567,8 +589,8 @@
         <observation name="UNDEFINED" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="0" value="5.0" />
-        <observation name="UNDEFINED" value="14.0" />
+        <observation name="0" value="16.0" />
+        <observation name="UNDEFINED" value="75.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -616,9 +638,9 @@
         <observation name="false" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="false" value="4.0" />
-        <observation name="true" value="12.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="false" value="26.0" />
+        <observation name="true" value="48.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
@@ -666,9 +688,9 @@
         <observation name="false" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="false" value="10.0" />
-        <observation name="true" value="6.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="false" value="51.0" />
+        <observation name="true" value="23.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -716,9 +738,9 @@
         <observation name="false" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="false" value="10.0" />
-        <observation name="true" value="6.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="false" value="51.0" />
+        <observation name="true" value="23.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
@@ -766,9 +788,9 @@
         <observation name="false" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="false" value="10.0" />
-        <observation name="true" value="6.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="false" value="51.0" />
+        <observation name="true" value="23.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
@@ -816,9 +838,9 @@
         <observation name="false" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="false" value="10.0" />
-        <observation name="true" value="6.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="false" value="49.0" />
+        <observation name="true" value="25.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
@@ -858,8 +880,8 @@
         <observation name="false" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="false" value="17.0" />
-        <observation name="true" value="2.0" />
+        <observation name="false" value="83.0" />
+        <observation name="true" value="8.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
@@ -899,8 +921,8 @@
         <observation name="NORMAL" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="NORMAL" value="16.0" />
-        <observation name="UNDEFINED" value="3.0" />
+        <observation name="NORMAL" value="74.0" />
+        <observation name="UNDEFINED" value="17.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -962,9 +984,10 @@
         <observation name="normal" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="expected" value="5.0" />
-        <observation name="normal" value="11.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="expected" value="13.0" />
+        <observation name="normal" value="59.0" />
+        <observation name="ofDefaultType" value="2.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
@@ -1047,12 +1070,12 @@
         <observation name="normal" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="classNameOrGlobalStatic" value="3.0" />
-        <observation name="expectedTypeVariable" value="2.0" />
-        <observation name="normal" value="6.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="classNameOrGlobalStatic" value="19.0" />
+        <observation name="expectedTypeVariable" value="10.0" />
+        <observation name="normal" value="34.0" />
         <observation name="probableKeyword" value="1.0" />
-        <observation name="variable" value="4.0" />
+        <observation name="variable" value="10.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
@@ -1092,8 +1115,8 @@
         <observation name="unknown" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="unknown" value="16.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="unknown" value="74.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -1147,9 +1170,10 @@
         <observation name="null" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="false" value="3.0" />
-        <observation name="null" value="13.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="false" value="16.0" />
+        <observation name="null" value="55.0" />
+        <observation name="true" value="3.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
@@ -1194,8 +1218,9 @@
         <observation name="unknown" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="unknown" value="16.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="applicableByKind" value="1.0" />
+        <observation name="unknown" value="73.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
@@ -1237,8 +1262,8 @@
         <observation name="UNDEFINED" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="6.0" />
-        <observation name="normal" value="13.0" />
+        <observation name="UNDEFINED" value="40.0" />
+        <observation name="normal" value="51.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -1288,9 +1313,9 @@
         <observation name="typedSelect" value="7.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="cancelled" value="42.0" />
-        <observation name="explicitSelect" value="15.0" />
-        <observation name="typedSelect" value="4.0" />
+        <observation name="cancelled" value="227.0" />
+        <observation name="explicitSelect" value="56.0" />
+        <observation name="typedSelect" value="36.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
@@ -1322,7 +1347,7 @@
         <observation name="BASIC" value="13.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="BASIC" value="25.0" />
+        <observation name="BASIC" value="120.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -1354,7 +1379,7 @@
         <observation name="count" value="50.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="count" value="61.0" />
+        <observation name="count" value="319.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -1422,11 +1447,11 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="average" value="0.162162" />
-        <observation name="count" value="37.0" />
+        <observation name="average" value="0.088398" />
+        <observation name="count" value="181.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.08231" />
+        <observation name="variance" value="0.070168" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
@@ -1495,7 +1520,7 @@
       </dailyData>
       <dailyData date="12-01-2020">
         <observation name="average" value="0.0" />
-        <observation name="count" value="37.0" />
+        <observation name="count" value="181.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -1570,12 +1595,12 @@
         <observation name="UNDEFINED" value="9.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="16.0" />
-        <observation name="average" value="-23.0" />
-        <observation name="count" value="5.0" />
-        <observation name="max" value="-8.0" />
-        <observation name="min" value="-61.0" />
-        <observation name="variance" value="134.65" />
+        <observation name="UNDEFINED" value="71.0" />
+        <observation name="average" value="-27.564103" />
+        <observation name="count" value="39.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-76.0" />
+        <observation name="variance" value="548.431846" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
@@ -1651,12 +1676,12 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="average" value="0.0" />
-        <observation name="count" value="31.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="average" value="-0.068027" />
+        <observation name="count" value="147.0" />
         <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="min" value="-2.0" />
+        <observation name="variance" value="0.065938" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
@@ -1724,11 +1749,11 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="average" value="0.459459" />
-        <observation name="count" value="37.0" />
-        <observation name="max" value="6.0" />
+        <observation name="average" value="0.58011" />
+        <observation name="count" value="181.0" />
+        <observation name="max" value="8.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="1.764444" />
+        <observation name="variance" value="2.836722" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
@@ -1796,11 +1821,11 @@
         <observation name="variance" value="0.104294" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="average" value="-1073.72973" />
-        <observation name="count" value="37.0" />
+        <observation name="average" value="-1080.640884" />
+        <observation name="count" value="181.0" />
         <observation name="max" value="0.0" />
-        <observation name="min" value="-1153.0" />
-        <observation name="variance" value="35889.160998" />
+        <observation name="min" value="-1154.0" />
+        <observation name="variance" value="45312.728955" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
@@ -1868,11 +1893,11 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="average" value="-0.108108" />
-        <observation name="count" value="37.0" />
+        <observation name="average" value="-0.022099" />
+        <observation name="count" value="181.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="-2.0" />
-        <observation name="variance" value="0.13461" />
+        <observation name="variance" value="0.06275" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
@@ -1948,12 +1973,12 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="average" value="129.032258" />
-        <observation name="count" value="31.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="average" value="111.564626" />
+        <observation name="count" value="147.0" />
         <observation name="max" value="300.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="12450.233063" />
+        <observation name="variance" value="14324.624154" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
@@ -2029,12 +2054,12 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="average" value="2.064516" />
-        <observation name="count" value="31.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="average" value="1.904762" />
+        <observation name="count" value="147.0" />
         <observation name="max" value="8.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="5.467492" />
+        <observation name="variance" value="6.812053" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
@@ -2110,12 +2135,12 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="average" value="0.774194" />
-        <observation name="count" value="31.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="average" value="0.62585" />
+        <observation name="count" value="147.0" />
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.602081" />
+        <observation name="variance" value="0.700053" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
@@ -2191,12 +2216,12 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="average" value="0.774194" />
-        <observation name="count" value="31.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="average" value="0.557823" />
+        <observation name="count" value="147.0" />
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.602081" />
+        <observation name="variance" value="0.611659" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
@@ -2265,7 +2290,7 @@
       </dailyData>
       <dailyData date="12-01-2020">
         <observation name="average" value="0.0" />
-        <observation name="count" value="37.0" />
+        <observation name="count" value="181.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -2336,11 +2361,11 @@
         <observation name="variance" value="2.369941" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="average" value="6.432432" />
-        <observation name="count" value="37.0" />
+        <observation name="average" value="4.883978" />
+        <observation name="count" value="181.0" />
         <observation name="max" value="16.0" />
         <observation name="min" value="1.0" />
-        <observation name="variance" value="14.133515" />
+        <observation name="variance" value="9.369666" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
@@ -2416,12 +2441,12 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="average" value="0.0" />
-        <observation name="count" value="31.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="average" value="-0.027211" />
+        <observation name="count" value="147.0" />
         <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.014648" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -2497,12 +2522,12 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
-        <observation name="average" value="0.0" />
-        <observation name="count" value="31.0" />
+        <observation name="UNDEFINED" value="17.0" />
+        <observation name="average" value="-40.734694" />
+        <observation name="count" value="147.0" />
         <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="min" value="-998.0" />
+        <observation name="variance" value="22319.52272" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
@@ -2578,9 +2603,9 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="3.0" />
+        <observation name="UNDEFINED" value="17.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="31.0" />
+        <observation name="count" value="147.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -2652,7 +2677,7 @@
       </dailyData>
       <dailyData date="12-01-2020">
         <observation name="average" value="1.0" />
-        <observation name="count" value="37.0" />
+        <observation name="count" value="181.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -2731,12 +2756,12 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="UNDEFINED" value="16.0" />
-        <observation name="average" value="-3.0" />
-        <observation name="count" value="5.0" />
+        <observation name="UNDEFINED" value="67.0" />
+        <observation name="average" value="-3.042553" />
+        <observation name="count" value="47.0" />
         <observation name="max" value="-3.0" />
-        <observation name="min" value="-3.0" />
-        <observation name="variance" value="-0.0" />
+        <observation name="min" value="-4.0" />
+        <observation name="variance" value="0.030153" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
@@ -2804,11 +2829,11 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="average" value="1891.459459" />
-        <observation name="count" value="37.0" />
-        <observation name="max" value="9999.0" />
+        <observation name="average" value="2043.58011" />
+        <observation name="count" value="181.0" />
+        <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="10284866.96532" />
+        <observation name="variance" value="13495814.715046" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -2881,9 +2906,13 @@
         <observation name="0" value="2.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="0" value="11.0" />
-        <observation name="1" value="3.0" />
-        <observation name="6" value="1.0" />
+        <observation name="0" value="38.0" />
+        <observation name="1" value="9.0" />
+        <observation name="2" value="3.0" />
+        <observation name="5" value="1.0" />
+        <observation name="6" value="2.0" />
+        <observation name="7" value="1.0" />
+        <observation name="8" value="2.0" />
       </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
@@ -2924,7 +2953,7 @@
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="total" value="10.0" />
+        <observation name="total" value="33.0" />
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
     </factor>
@@ -3014,11 +3043,12 @@
         <observation name="3" value="2.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="0" value="1.0" />
-        <observation name="1" value="4.0" />
-        <observation name="2" value="8.0" />
-        <observation name="3" value="1.0" />
-        <observation name="6" value="1.0" />
+        <observation name="0" value="5.0" />
+        <observation name="1" value="18.0" />
+        <observation name="2" value="16.0" />
+        <observation name="3" value="9.0" />
+        <observation name="4" value="5.0" />
+        <observation name="6" value="3.0" />
       </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
@@ -3059,8 +3089,8 @@
         <observation name="count" value="27.0" />
       </dailyData>
       <dailyData date="12-01-2020">
-        <observation name="average" value="198.307692" />
-        <observation name="count" value="13.0" />
+        <observation name="average" value="170.294118" />
+        <observation name="count" value="51.0" />
       </dailyData>
     </factor>
   </component>
@@ -3081,62 +3111,7 @@
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangllhome" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangllhome" type="462c0819:PsiDirectoryNode" />
-              <item name="multithread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangllhome" type="462c0819:PsiDirectoryNode" />
-              <item name="multithread" type="462c0819:PsiDirectoryNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -3180,7 +3155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FutureTask01">
+  <component name="RunManager" selected="Application.FutureTask02">
     <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangllhome.multithread.single.EnumDemo" />
       <module name="algorithm" />
@@ -3196,6 +3171,19 @@
     </configuration>
     <configuration name="FutureTask01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangllhome.multithread.future.FutureTask01" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangllhome.multithread.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureTask02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.multithread.future.FutureTask02" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -3233,33 +3221,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangllhome.multithread.waitset.WaitSetDemo" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangllhome.multithread.waitset.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.WaitSetDemo" />
       <item itemvalue="Application.TestObserver" />
       <item itemvalue="Application.ThreadLifeCycleClient" />
       <item itemvalue="Application.EnumDemo" />
       <item itemvalue="Application.FutureTask01" />
+      <item itemvalue="Application.FutureTask02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FutureTask02" />
         <item itemvalue="Application.FutureTask01" />
         <item itemvalue="Application.EnumDemo" />
         <item itemvalue="Application.ThreadLifeCycleClient" />
         <item itemvalue="Application.TestObserver" />
-        <item itemvalue="Application.WaitSetDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -3286,12 +3261,12 @@
       <workItem from="1577029114112" duration="98000" />
       <workItem from="1577029256998" duration="196000" />
       <workItem from="1577029497593" duration="34000" />
-      <workItem from="1577029576278" duration="17529000" />
+      <workItem from="1577029576278" duration="20651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106912000" />
+    <option name="totallyTimeSpent" value="110034000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3306,7 +3281,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.28298888" visible="true" weight="0.30179444" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.28298888" weight="0.30179444" />
       <window_info id="Structure" order="1" sideWeight="0.5085066" side_tool="true" weight="0.3572594" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -3314,20 +3289,20 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.22063038" side_tool="true" weight="0.3841762" />
       <window_info id="Learn" order="7" />
-      <window_info id="PlantUML" order="8" sideWeight="0.49149337" weight="0.3572594" />
+      <window_info id="PlantUML" order="8" sideWeight="0.49149337" visible="true" weight="0.24225122" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49836868" weight="0.5691574" />
       <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.362969" weight="0.25596184" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49673736" weight="0.3290938" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.3482871" weight="0.2845787" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.34747145" visible="true" weight="0.3227345" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50570965" side_tool="true" weight="0.22893482" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49429038" weight="0.32750398" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49918434" weight="0.5437202" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.50570965" side_tool="true" visible="true" weight="0.32750398" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.6525285" side_tool="true" visible="true" weight="0.3227345" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.22512235" />
@@ -3786,28 +3761,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="125" column="25" lean-forward="true" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="31" />
-          <folding>
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#2033#2034#0" expanded="true" />
-            <element signature="e#2461#2462#0" expanded="true" />
-            <element signature="e#2530#2531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/googleproto/GoogleServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -4065,13 +4018,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/Class.proto">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/Student.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/algorithm/DynamicAlgrithe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -4110,16 +4056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/waitset/WaitSetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -4140,17 +4076,6 @@
           <folding>
             <element signature="e#197#198#0" expanded="true" />
             <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/BinaryObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4261,10 +4186,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/future/FutureTask01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/pattern/observer/BinaryObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/io/netty/codec/protobuf/Student.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/waitset/WaitSetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/futureTaskTimeSeries.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhangllhome/multithread/future/FutureTask02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
           </folding>
         </state>
       </provider>
